@@ -1,0 +1,57 @@
+.navbar{
+    height: 2.25rem;
+}
+.navbar-brand{
+    margin-left: 1rem;
+}
+#logoSvg{
+    width: 2rem;
+    margin: auto;
+}
+#navbarText{
+    display: flex;
+    justify-content: space-between;
+}
+#mepresentation{
+    text-align: center;
+    padding:2vh;
+}
+.presentation{
+    background-color: #02bdbd;
+    padding-top: 5%;
+}
+.presentation .avatarDiv{
+    display: flex;
+    justify-content: center;
+}
+.avatarDiv img{
+    width: 40vh;
+}
+.transition img{
+    background-color: #02bdbd;
+    background-image: url(styles/transition.svg);
+    width: 100%;
+    background-size: cover;
+}
+.landingPortfolio{
+    padding-top: 3vh;
+    text-align: cente   r;
+}
+.col-sm-4 a img{
+    width: 35vh;
+    height: 40vh;
+}
+.col-sm-4 a{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.col-sm-4{
+    display: flex;
+    align-items: center;
+}
+.row div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
