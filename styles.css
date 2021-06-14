@@ -34,8 +34,9 @@
     background-size: cover;
 }
 .landingPortfolio{
-    padding-top: 3vh;
-    text-align: cente   r;
+    padding-top: 10vh;
+    text-align: center;
+    padding-bottom: 10vh;
 }
 .col-sm-4 a img{
     width: 35vh;
@@ -54,4 +55,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.aboutSection{
+    padding-top: 5vh;
+    text-align: center;
+    padding-bottom: 5vh;
+    color: white;
+    background-color: #0f7d81;
+    margin: 5vh;
+    border-radius: 8px;
+    box-shadow: 2px;
+
+}
+.aboutSection h2{
+    margin-bottom: 5vh;
+}
+.aboutSection div p{
+    text-align: center;
+    width: 40rem;
+    margin: 5%;
+    min-width: 30%;
+}
+.aboutSection div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aboutSection div img{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    width: 30vh;
+    padding: 1vh;
+    background-color: #f7f7f7;
 }
