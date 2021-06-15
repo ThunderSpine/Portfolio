@@ -15,6 +15,7 @@
 #mepresentation{
     text-align: center;
     padding:2vh;
+    color: #fff;
 }
 .presentation{
     background-color: #02bdbd;
@@ -65,7 +66,6 @@
     margin: 5vh;
     border-radius: 8px;
     box-shadow: 2px;
-
 }
 .aboutSection h2{
     margin-bottom: 5vh;
@@ -104,9 +104,40 @@ display: flex;
 #send{
     border-color: #303030;
     border: 0px;
+    border-radius: 15px;
 }
 .footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: #2b303a;
     color: #fff;
     padding: 5vw;
+    padding-bottom: 1vw;
+}
+#socialN{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.copyrightSection{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #2b303a;
+    color: #fff;
+    font-size: 0.7rem;
+}
+.copyright p{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-top: 2vh;
+}
+#message{
+    width: 80vw;
+    height: 20vh;
 }
