@@ -4,13 +4,17 @@
 .navbar-brand{
     margin-left: 1rem;
 }
+.navbar-text{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 1vw;
+}
 #logoSvg{
     width: 2rem;
     margin: auto;
 }
 #navbarText{
-    display: flex;
-    justify-content: space-between;
+    text-align: right;
 }
 #mepresentation{
     text-align: center;
@@ -19,7 +23,8 @@
 }
 .presentation{
     background-color: #02bdbd;
-    padding-top: 5%;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
 }
 .presentation .avatarDiv{
     display: flex;
@@ -113,8 +118,8 @@ display: flex;
     flex-wrap: wrap;
     background-color: #2b303a;
     color: #fff;
-    padding: 5vw;
-    padding-bottom: 1vw;
+    padding: 3vw;
+    padding-bottom: 0;
 }
 #socialN{
     display: flex;
@@ -125,13 +130,13 @@ display: flex;
 .copyrightSection{
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-color: #2b303a;
     color: #fff;
     font-size: 0.7rem;
 }
-.copyright p{
+.copyright{
     display: flex;
     align-items: center;
     margin: 0;
