@@ -1,0 +1,148 @@
+.navbar{
+    height: 2.25rem;
+}
+.navbar-brand{
+    margin-left: 1rem;
+}
+.navbar-text{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 1vw;
+}
+#logoSvg{
+    width: 2rem;
+    margin: auto;
+}
+#navbarText{
+    text-align: right;
+}
+#mepresentation{
+    text-align: center;
+    padding:2vh;
+    color: #fff;
+}
+.presentation{
+    background-color: #02bdbd;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+}
+.presentation .avatarDiv{
+    display: flex;
+    justify-content: center;
+}
+.avatarDiv img{
+    width: 40vh;
+}
+.transition img{
+    background-color: #02bdbd;
+    background-image: url(styles/transition.svg);
+    width: 100%;
+    background-size: cover;
+}
+.landingPortfolio{
+    padding-top: 10vh;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+.col-sm-4 a img{
+    width: 35vh;
+    height: 40vh;
+}
+.col-sm-4 a{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.col-sm-4{
+    display: flex;
+    align-items: center;
+}
+.row div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutSection{
+    padding-top: 5vh;
+    text-align: center;
+    padding-bottom: 5vh;
+    color: white;
+    background-color: #0f7d81;
+    margin: 5vh;
+    border-radius: 8px;
+    box-shadow: 2px;
+}
+.aboutSection h2{
+    margin-bottom: 5vh;
+}
+.aboutSection div p{
+    text-align: center;
+    width: 40rem;
+    margin: 5%;
+    min-width: 30%;
+}
+.aboutSection div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aboutSection div img{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    width: 30vh;
+    padding: 1vh;
+    background-color: #f7f7f7;
+}
+.formSection{
+display: flex;
+    justify-content: center;
+}
+.form{
+    background-color: #d9d9d9;
+    width:90vw;
+    padding: 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+#send{
+    border-color: #303030;
+    border: 0px;
+    border-radius: 15px;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #2b303a;
+    color: #fff;
+    padding: 3vw;
+    padding-bottom: 0;
+}
+#socialN{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.copyrightSection{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #2b303a;
+    color: #fff;
+    font-size: 0.7rem;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-top: 2vh;
+}
+#message{
+    width: 80vw;
+    height: 20vh;
+}
