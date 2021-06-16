@@ -21,21 +21,29 @@
     padding:2vh;
     color: #fff;
 }
+#mepresentation h1{
+    position: relative !important;
+}
+#mepresentation p{
+    position: relative !important;
+}
 .presentation{
     background-color: #02bdbd;
     padding-top: 12vh;
     padding-bottom: 12vh;
 }
-.presentation .avatarDiv{
-    display: flex;
-    justify-content: center;
+#mepresentation .avatarDiv{
+    margin-bottom: 2vh;
 }
 .avatarDiv img{
     width: 40vh;
 }
-.transition img{
+.transition{
     background-color: #02bdbd;
-    background-image: url(styles/transition.svg);
+}
+.transition img{
+    position: relative;
+    bottom: -1px;
     width: 100%;
     background-size: cover;
 }

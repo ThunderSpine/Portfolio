@@ -19,7 +19,7 @@
     <link rel="icon" href="styles/ico.svg">
     <title>Francisco JC</title>
 
-    <!-- Barra de Navegación -->
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #02bdbd">
         <a class="navbar-brand" href="index.html">
           <img src="styles/ico.svg" alt="logo" id="logoSvg">
@@ -45,35 +45,39 @@
         </div>
       </nav>
 </head>
+
 <body>
+  <!-- Presentation -->
   <section class="presentation">
-    <div class="avatarDiv"><img src="styles/avatar.svg" alt="avatar"></div>
     <div id="mepresentation">
-      <h1><strong>Francisco Jiménez</strong></h1>
-      <p>Web Develper</p>
+      <div class="avatarDiv" data-depth="0.2"><img src="styles/avatar.svg" alt="avatar"></div>
+      <h1 data-depth="0.3"><strong>Francisco Jiménez</strong></h1>
+      <p data-depth="0.25">Web Develper</p>
   </div>
   </section>
   <section class="transition" id="transition">
     <img src="styles/transition.svg" alt="transitionSvg">
   </section>
-  
+
+      <!-- Portfolio -->
   <section class="landingPortfolio" id="portfolio">
-    <h2><strong>Portfolio</strong></h2>
+    <h2><strong>My Projects</strong></h2>
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <a href="https://longdogechallenge.com/" target="_blank"><img src="styles/longdoge.png" alt=""></a>
+          <a href="https://longdogechallenge.com/" target="_blank"><img src="styles/longdoge.png" alt="Dege"></a>
         </div>
         <div class="col-sm-4">
-          <a href="https://alwaysjudgeabookbyitscover.com/" target="_blank"><img src="styles/judge.svg" alt=""></a>
+          <a href="https://alwaysjudgeabookbyitscover.com/" target="_blank"><img src="styles/judge.svg" alt="Judge"></a>
         </div>
         <div class="col-sm-4">
-          <a href="https://qraceer.netlify.app/" target="_blank"><img src="styles/qRacer.svg" alt=""></a>
+          <a href="https://qraceer.netlify.app/" target="_blank"><img src="styles/qRacer.svg" alt="QRacer"></a>
         </div>
       </div>
     </div>
   </section>
   
+  <!-- Information about me -->
   <section class="aboutSection" id="aboutSectionId">
     <h2><strong>About Me</strong></h2>
       <div class="aboutMe">
@@ -85,6 +89,7 @@
     </div>
   </section>
 
+  <!-- Contact Me Section -->
   <section class="formSection" id="contactMe">
     <div class="form">
       <h1>Contact Me!</h1>
@@ -156,10 +161,11 @@
             Send!
           </button>
         </div>
-
       </form>
     </div>
   </section>
+
+  <!-- Page Footer -->
   <section class="footer">
       <div class="adress">
         <h4><strong>Adress</strong></h4>
@@ -182,5 +188,10 @@
       <p>Copyright © frajic.com 2021</p>
     </div>
   </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script>
+  var mepresentation = document.getElementById('mepresentation');
+  var parallaxInstance = new Parallax(mepresentation);
+</script>
 </body>
 </html>
